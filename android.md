@@ -1,5 +1,7 @@
 # Android
 
+The Gloop SDK jar libraries can be found under the [release page](https://github.com/Gloopio/Downloads/releases).
+
 ## Set up
 
 1) Download gloopProcessor-VERSION.jar and gloopSDK-VERSION.jar from [release page](https://github.com/Gloopio/Downloads/releases).
@@ -8,7 +10,7 @@
 
 3) Add following lines to your application `build.gradle` file under the dependencies section:
 
-```
+```groovy
 compile fileTree(dir: 'libs', include: ['gloopSDK-*.jar'])
 annotationProcessor fileTree(dir: 'libs', include: ['gloopProcessor-*.jar'])
 ```
