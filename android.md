@@ -14,3 +14,9 @@ The Gloop SDK jar libraries can be found under the [release page](https://github
 compile fileTree(dir: 'libs', include: ['gloopSDK-*.jar'])
 annotationProcessor fileTree(dir: 'libs', include: ['gloopProcessor-*.jar'])
 ```
+
+## Example apps
+
+- [Tasks App](https://github.com/Gloopio/Demo-App-Java) 
+- [Drawed App](https://github.com/Gloopio/Drawed)
+- [Image App](https://github.com/Gloopio/Instagram-App-Java)
